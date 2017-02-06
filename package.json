@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Example settings of karma-browserify and babel-plugin-istanbul",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "codecov": "codecov -f coverage/lcov.info -t d7c28347-31e4-4d0e-87eb-de28386ea496"
   },
   "author": "Orest Prystayko <orestprustayko@gmail.com>",
   "license": "MIT",
